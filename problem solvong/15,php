@@ -1,0 +1,11 @@
+<?php
+
+$input = fgets(STDIN); 
+
+$salary = (double)$input;
+
+$bonus = $salary * 0.10;
+
+$bonusInteger = (int)$bonus;
+
+echo $bonusInteger . "\n";
